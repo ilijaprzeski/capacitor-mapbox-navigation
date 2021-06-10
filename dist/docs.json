@@ -1,0 +1,127 @@
+{
+  "api": {
+    "name": "CapacitorMapboxNavigationPlugin",
+    "slug": "capacitormapboxnavigationplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "echo",
+        "signature": "(options: { value: string; }) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ value: string; }"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "echo"
+      },
+      {
+        "name": "show",
+        "signature": "(options: MapboxNavOptions) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "MapboxNavOptions"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [
+          "MapboxNavOptions"
+        ],
+        "slug": "show"
+      },
+      {
+        "name": "history",
+        "signature": "() => any",
+        "parameters": [],
+        "returns": "any",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "history"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "MapboxNavOptions",
+      "slug": "mapboxnavoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "waypoints",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [
+            "LocationOption"
+          ],
+          "type": "{}"
+        },
+        {
+          "name": "mapType",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string | undefined"
+        },
+        {
+          "name": "simulating",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "boolean | undefined"
+        },
+        {
+          "name": "startPos",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "number | undefined"
+        }
+      ]
+    },
+    {
+      "name": "LocationOption",
+      "slug": "locationoption",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "_id",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "location",
+          "tags": [],
+          "docs": "",
+          "complexTypes": [],
+          "type": "[number, number]"
+        }
+      ]
+    }
+  ],
+  "enums": []
+}

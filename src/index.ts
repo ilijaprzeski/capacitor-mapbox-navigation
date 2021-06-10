@@ -9,5 +9,5 @@ const CapacitorMapboxNavigation = registerPlugin<CapacitorMapboxNavigationPlugin
   },
 );
 
-export * from './definitions';
+export * from './definitions';123
 export { CapacitorMapboxNavigation };
